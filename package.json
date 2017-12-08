@@ -1,0 +1,19 @@
+{
+  "name": "pbs-login",
+  "version": "1.0.0",
+  "description": "Login Screens for PBS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdinteractive/pbs-login.git"
+  },
+  "author": "Brad Dedon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bdinteractive/pbs-login/issues"
+  },
+  "homepage": "https://github.com/bdinteractive/pbs-login#readme"
+}

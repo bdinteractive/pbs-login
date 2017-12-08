@@ -1,0 +1,146 @@
+html,
+body,
+.container-fluid,
+.container-fluid > .row {
+  height: 100%;
+}
+body {
+  font-family: 'Lora', serif;
+}
+a,
+a:visited {
+  color: #EA9022;
+}
+a:hover {
+  color: #D07B13;
+}
+.form-control {
+  margin-bottom: 5px;
+}
+.btn-primary {
+  background-color: #EA9022;
+  border-color: #D07B13;
+  padding-left: 1.7rem;
+  padding-right: 1.7rem;
+  color: white !important;
+}
+.btn-primary:hover {
+  background-color: #D07B13;
+  border-color: #D07B13;
+}
+
+
+.pbs-height-full {
+  height: 100%;
+}
+
+.pbs-login-text {
+  max-width: 400px;
+}
+.pbs-m-workplace-logo {
+  width: 245px;
+  height: 80px;
+  margin-bottom: 50px;
+  display: block;
+  background-image: url(../images/TransitionMW-transbkgrd.svg);
+  background-size: 265px;
+  background-position: -13px -13px;
+  background-repeat: no-repeat;
+}
+.pbs-login-information {
+  margin-top: 50px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  border-top: solid 1px #333;
+}
+.pbs-login-panel {
+  height: 100%;
+  background-image: url(../images/ryan-riggins-213451.jpg);
+  background-blend-mode: overlay;
+  background-color: rgba(147,112,219,1);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pbs-login-form {
+  width: 80%;
+  color: white;
+}
+.pbs-forgot-password {
+  padding: 20px 0;
+}
+.pbs-switch-wrapper {
+
+}
+.pbs-switch-wrapper__switch {
+  max-width: max-content;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 30px;
+  bottom: 4px;
+  background-color: #5422c0;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: white;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px white;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(-26px);
+  -ms-transform: translateX(-26px);
+  transform: translateX(-26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
