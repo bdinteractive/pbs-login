@@ -26,25 +26,44 @@
         <div class="col-md pbs-login-form-panel">
           <div class="d-flex flex-column justify-content-center align-items-center pbs-height-full">
             <div class="pbs-login-form-panel__form">
+              <h2>Registration</h2>
+              <nav>
+                1. Select Organization
+                2. Profile
+                <span class="font-weight-bold">3. Security</span>
+                4. Terms of Use
+              </nav>
               <form>
-                <input class="form-control form-control-lg" type="text" placeholder="Email Address">
-                <input class="form-control form-control-lg" type="password" placeholder="Password">
-              </form>
-              <p class="pbs-login-form-panel__forgot-pass"><a href="#">Forgot your password?</a></p>
-              <div class="row pbs-switch-wrapper">
-                <div class="col pbs-login-form-panel__switch">
-                  <label class="switch">
-                    <input type="checkbox">
-                    <span class="slider round"></span>
-                  </label>
+                <div class="row pbs-top-bottom-extra-space">
+                  <div class="col-md-4">
+                    <p>Security Question</p>
+                  </div>
+                  <div class="col-md-8">
+                    <select class="form-control form-control-lg">
+                      <option>Select One</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                  <div class="col-md-4">
+                    <p>Security Answer</p>
+                  </div>
+                  <div class="col-md-8">
+                    <input class="form-control form-control-lg" type="text" placeholder="">
+                  </div>
                 </div>
-                <div class="col pbs-login-form-panel__login-txt">
-                  <p><span class="font-weight-bold">Private Computer</span><br />
-                  Select private computer option if you're the only person who uses this computer.</p>
+              </form>
+              <div class="row">
+                <div class="col">
+                  <a class="btn btn-primary btn-lg" href="#">Back</a>
+                </div>
+                <div class="col text-right">
+                  <a class="btn btn-primary btn-lg" href="#">Next</a>
                 </div>
               </div>
-              </p>
-              <a class="btn btn-primary btn-lg" href="#">Login</a>
             </div>
           </div>
         </div>

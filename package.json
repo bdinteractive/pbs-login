@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/bdinteractive/pbs-login/issues"
   },
-  "homepage": "https://github.com/bdinteractive/pbs-login#readme"
+  "homepage": "https://github.com/bdinteractive/pbs-login#readme",
+  "dependencies": {
+    "open-iconic": "^1.1.1"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.2.3",
+    "webpack": "^3.10.0"
+  }
 }

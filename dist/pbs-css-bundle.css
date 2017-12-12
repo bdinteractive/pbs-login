@@ -1,3 +1,6 @@
+
+/* PBS Bootstrap Specific overrides */
+
 html,
 body,
 .container-fluid,
@@ -5,7 +8,8 @@ body,
   height: 100%;
 }
 body {
-  font-family: 'Lora', serif;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F0F4F5;
 }
 a,
 a:visited {
@@ -13,9 +17,6 @@ a:visited {
 }
 a:hover {
   color: #D07B13;
-}
-.form-control {
-  margin-bottom: 5px;
 }
 .btn-primary {
   background-color: #EA9022;
@@ -30,14 +31,36 @@ a:hover {
 }
 
 
+
+
+/* PBS Utilities */
+
 .pbs-height-full {
   height: 100%;
 }
+.pbs-txt-light {
+  color: #363636;
+}
+.pbs-top-bottom-extra-space {
+  padding: 40px 0;
+}
 
-.pbs-login-text {
+
+
+
+/* PBS Mast Left Panel */
+
+.pbs-login-mast-panel {
   max-width: 400px;
 }
-.pbs-m-workplace-logo {
+.pbs-login-mast-panel__info {
+  margin-top: 50px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  border-top: solid 1px #515358;
+  font-size: 20px;
+}
+.pbs-workplace-logo {
   width: 245px;
   height: 80px;
   margin-bottom: 50px;
@@ -47,34 +70,50 @@ a:hover {
   background-position: -13px -13px;
   background-repeat: no-repeat;
 }
-.pbs-login-information {
-  margin-top: 50px;
-  padding-top: 10px;
-  margin-bottom: 30px;
-  border-top: solid 1px #333;
-}
-.pbs-login-panel {
+
+
+
+
+
+
+/* PBS Form Right Panel */
+
+.pbs-login-form-panel {
   height: 100%;
-  background-image: url(../images/ryan-riggins-213451.jpg);
-  background-blend-mode: overlay;
-  background-color: rgba(147,112,219,1);
+  background-image: url(../images/footer-BG.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
-.pbs-login-form {
+.pbs-login-form-panel h2 {
+  color: #EA9022;
+}
+.pbs-login-form-panel__form {
   width: 80%;
   color: white;
 }
-.pbs-forgot-password {
+.pbs-login-form-panel__login-txt {
+  font-size: 14px;
+}
+.pbs-login-form-panel__forgot-pass {
   padding: 20px 0;
 }
-.pbs-switch-wrapper {
-
-}
-.pbs-switch-wrapper__switch {
+.pbs-login-form-panel__switch {
   max-width: max-content;
 }
+.pbs-login-form-panel__btn {
+  margin-top: 60px;
+}
+.pbs-login-form-panel .form-control {
+  margin-bottom: 20px;
+}
 
+.pbs-scroll-pane {
+  height: 300px;
+  border: solid 1px #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  overflow-x: scroll;
+}
 
 
 
@@ -117,7 +156,7 @@ a:hover {
   width: 26px;
   left: 30px;
   bottom: 4px;
-  background-color: #5422c0;
+  background-color: #565191;
   -webkit-transition: .4s;
   transition: .4s;
 }
