@@ -52,6 +52,10 @@ a:hover {
 
 .pbs-login-mast-panel {
   max-width: 400px;
+  color: #515358;
+}
+.pbs-login-mast-panel a {
+  font-family: 'Arvo', serif;
 }
 .pbs-login-mast-panel__info {
   margin-top: 50px;
@@ -83,6 +87,9 @@ a:hover {
   background-image: url(../images/footer-BG.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+.pbs-login-form-panel .pbs-link {
+  font-family: 'Arvo', serif;
 }
 .pbs-login-form-panel h2 {
   color: #EA9022;
