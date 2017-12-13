@@ -18,6 +18,10 @@ a:visited {
 a:hover {
   color: #D07B13;
 }
+.btn {
+  font-size: 16px;
+  font-weight: 700;
+}
 .btn-primary {
   background-color: #EA9022;
   border-color: #D07B13;
